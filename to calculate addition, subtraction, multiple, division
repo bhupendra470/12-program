@@ -1,0 +1,19 @@
+#include<stdio.h>
+#include<conio.h>
+int main ()
+{
+int a,b,add,subtract,multiple;
+float division;
+printf("enter the two number\n");
+scanf("%d %d",&a,&b);
+add=a+b;
+subtract=a-b;
+multiple=a*b;
+division=a/b;
+printf("sum=%d\n",add);
+printf("difference=%d\n",subtract);
+printf("multiplication=%d\n", multiple);
+printf!"divide=%f\n", division);
+getch();
+return 0;
+}
