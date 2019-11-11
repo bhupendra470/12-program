@@ -1,0 +1,17 @@
+#include<studio.h>
+#include<conio.h>
+int main()
+{
+float p,r,t,i;
+clrscr();
+printf("enter principal amount p=");
+scanf("%f",& p);
+Printf("enter time t=");
+scanf("%f",& t);
+printf("enter rate r=");
+scanf("%f",। & r);
+i=(p*r*t)/100;
+printf("simple interest=%f",i);
+getch();
+return 0;
+}
