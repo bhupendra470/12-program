@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+float celcius,ferehnite;
+printf("\n enter temperature in celcius");
+scanf("%f",& celcius);
+ferehnite=(1.8)*celcius+32;
+printf("\n %f celcius is %f ferehnite\n", celcius, ferehnite);
+getch();
+return 0;
+}
+
